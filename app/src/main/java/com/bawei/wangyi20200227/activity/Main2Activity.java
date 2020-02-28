@@ -25,8 +25,6 @@ public class Main2Activity extends BaseActivity {
         Intent intent = getIntent();
         String name = intent.getStringExtra("name");
         tv.setText(name);
-
-
     }
 
     @Override
